@@ -1,1 +1,46 @@
-{"type":"Mesh data","version":"0.0.1","bufferLength":14256,"meshes":[{"name":"C.1.1","type":"triangle","translate":[0.05948,41.3325,24.2803],"scale":[1,1,1],"vertices":{"type":"Float32Array","length":4752,"offset":0},"normal":{"type":"Float32Array","length":4752,"offset":4752},"uvs":{"type":"Float32Array","length":3168,"offset":9504},"indices":{"type":"Uint32Array","length":1584,"offset":12672}}]}
+{
+    "type": "Mesh data",
+    "version": "0.0.1",
+    "bufferLength": 358,
+    "meshes": [
+        {
+            "name": "Cube",
+            "type": "triangle",
+            "translate": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ],
+            "vertices": {
+                "type": "Float32Array",
+                "length": 99,
+                "offset": 0
+            },
+            "normal": {
+                "type": "Float32Array",
+                "length": 99,
+                "offset": 99
+            },
+            "uvs": {
+                "type": "Float32Array",
+                "length": 66,
+                "offset": 198
+            },
+            "indices": {
+                "type": "Uint32Array",
+                "length": 36,
+                "offset": 264
+            },
+            "uvs_1": {
+                "type": "Float32Array",
+                "length": 58,
+                "offset": 300
+            }
+        }
+    ]
+}

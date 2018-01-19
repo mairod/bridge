@@ -2,7 +2,7 @@
 
 
 // ----------------------
-let FILE = "rituals"
+let FILE = "test"
 // ----------------------
 
 
@@ -24,16 +24,18 @@ fs.readFile(__dirname + '/IN/' + FILE + '.dae', function (err, data) {
         let parts = new Interpretor(result, {
             onlyVertices: false,
             scale: 1,
-            optimize: true
+            optimize: true,
+            mergeUV: false,
         })
+
         
         console.log('  ');
         console.log('Objects Infos');
         console.log("|-- Numbers of Objects :", parts.length)
                 
         // Make json dictionary + binary file
-        // new Encryptor(parts, __dirname + "../../../work/hands-2018" + FILE)
-        new Encryptor(parts, "/Users/dorianlods/Serveur/work/hands-2018/src/assets/models/" + FILE)
+        new Encryptor(parts, __dirname + "/OUT/" + FILE)
+        // new Encryptor(parts, "/Users/dorianlods/Serveur/work/hands-2018/src/assets/models/" + FILE)
 
         
         
