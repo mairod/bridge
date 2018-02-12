@@ -2,7 +2,7 @@
 
 
 // ----------------------
-let FILE = "test"
+let FILE = "panafrica"
 // ----------------------
 
 
@@ -34,8 +34,8 @@ fs.readFile(__dirname + '/IN/' + FILE + '.dae', function (err, data) {
         console.log("|-- Numbers of Objects :", parts.length)
                 
         // Make json dictionary + binary file
-        new Encryptor(parts, __dirname + "/OUT/" + FILE)
-        // new Encryptor(parts, "/Users/dorianlods/Serveur/work/hands-2018/src/assets/models/" + FILE)
+        // new Encryptor(parts, __dirname + "/OUT/" + FILE)
+        new Encryptor(parts, "/Users/dorianlods/Serveur/work/hands-2018/src/assets/models/" + FILE)
 
         
         
